@@ -1,0 +1,102 @@
+html, 
+nav, 
+body {
+	font-family: 'mukta', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	display: flex;
+	padding: 5px;
+	justify-content: space-between;
+}
+
+nav,
+.container {
+	max-width: 1140px;
+	width: 100%;
+	margin: auto;
+}
+
+div.homeButton {
+	display: block;
+	font-size: 20px;
+}
+
+span.firstName {
+	color: #00A896;
+}
+
+span.lastName {
+	color: #05668D;
+}
+
+div.dropDownContainer {
+	margin: 0;
+}
+
+ul.dropDown {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	
+}
+
+li.dropDownItem{
+	padding-right: 10px;
+	
+}
+
+li.dropDownItem a:hover {
+	color: #00A896;
+}
+
+
+li.toggleIcon {
+	display: none;
+}
+
+/*Mobile*/
+
+@media (max-width:  768px){
+	li.toggleIcon {
+		display: block;
+	}
+	
+	li.dropDownItem {
+		display: none;
+		transition: .2s ease-in-out;
+	}
+	
+	.dropDown.responsive {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.responsive li.dropDownItem {
+		display: block;
+		position: relative;
+		top: 30px;
+		right: 14px;
+		
+	}
+	
+	li.toggleIcon {
+		position: fixed;
+		top: 20px;
+		right: 15px;
+	}
+	
+	.responsive li.toggleIcon {
+		position: fixed;
+		top: 20px;
+		right: 15px;
+	}
+}

@@ -2,12 +2,31 @@
 <html lang="en">
 <head>
 	<title>Thomas Schaber Landing page</title>
+	
+	<!--Main Stylesheet-->
 	<link rel="stylesheet" href="main.css">
+	
+	<!--Google Font Style-->
+	<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 </head>
-	<body>
+<body>
+	<nav class="container">
+		<div class="homeButton">
+			<span class="firstName">Thomas</span><span class="lastName"> Schaber</span>
+		</div>
+		<div class="dropDownContainer">
+			<ul class="dropDown" id="dropDown">
+				<li class="dropDownItem"><a href="#">Home</a></li>
+				<li class="dropDownItem"><a href="#">Education</a></li>
+				<li class="dropDownItem"><a href="#">Projects</a></li>
+				<li class="dropDownItem"><a href="#">Contact</a></li>
+				<li class="toggleIcon" id="toggleIcon"><a onclick=toggleMenuBar() href=" javascript:void(0)">&#x2630</a></li>
+			</ul>
+		</div>
+	</nav>
 	
 	
-	<script type="text/javascript" src="main.js"></script>
-	</body>
+<script type="text/javascript" src="main.js"></script>
+</body>
 
 </html>
