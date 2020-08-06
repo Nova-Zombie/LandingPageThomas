@@ -81,6 +81,38 @@ li.toggleIcon {
 	box-shadow: 0 0 1rem .5rem rgba(22, 218, 240, 0.5);
 }
 
+.educationContainer{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+}
+
+.educationProfileContainer {
+	display: flex;
+	margin: 5px;
+	max-width: 500px;
+	flex-wrap: wrap;
+	padding: 5px;
+	background-color: #b4bfbe;
+	box-shadow: 5px 5px 1px .5px rgba(0, 0, 0, .5);
+}
+
+.institutePic {
+	display: flex;
+}
+
+.institutePic img {
+	max-width: 200px;
+	border-radius: 5px;
+}
+
+.institutePic h2 {
+	padding-left: 1rem;
+}
+
+.instituteExp {
+	
+}
 
 
 /*Mobile*/
