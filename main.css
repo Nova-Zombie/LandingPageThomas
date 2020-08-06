@@ -18,7 +18,8 @@ nav {
 }
 
 nav,
-.container {
+.container,
+.educationContainer {
 	max-width: 1140px;
 	width: 100%;
 	margin: auto;
@@ -84,13 +85,14 @@ li.toggleIcon {
 .educationContainer{
 	background-color: #ffffff;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
 .educationProfileContainer {
 	display: flex;
 	margin: 5px;
-	max-width: 500px;
+	max-width: 400px;
 	flex-wrap: wrap;
 	padding: 5px;
 	background-color: #b4bfbe;
@@ -113,6 +115,30 @@ li.toggleIcon {
 .instituteExp {
 	
 }
+
+.contactBox {
+	display: flex;
+	background-color: #e7ebf0;
+	padding: 5px;
+}
+
+.contactContainer {
+	margin-top: 10px;
+}
+
+.contact {
+	padding-left: 10px;
+}
+
+.contactFeild {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contactFeild input{
+	width: 365px;
+}
+
 
 
 /*Mobile*/
@@ -150,5 +176,9 @@ li.toggleIcon {
 		position: fixed;
 		top: 20px;
 		right: 15px;
+	}
+	
+	.educationContainer {
+		flex-wrap: wrap;
 	}
 }
