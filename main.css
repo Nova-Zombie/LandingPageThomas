@@ -63,6 +63,26 @@ li.toggleIcon {
 	display: none;
 }
 
+.pictureContainer {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+	padding-bottom: .5rem;
+	background-color: #118a78;
+	
+}
+
+.profilePicture {
+	margin: auto;
+}
+
+.profilePicture img{
+	border-radius: 50%;
+	box-shadow: 0 0 1rem .5rem rgba(22, 218, 240, 0.5);
+}
+
+
+
 /*Mobile*/
 
 @media (max-width:  768px){
