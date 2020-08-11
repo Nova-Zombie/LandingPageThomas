@@ -103,7 +103,7 @@ li.toggleIcon {
 	display: flex;
 }
 
-.institutePic img {
+.institutePic img, .projectIntroBox .picture img{
 	max-width: 200px;
 	border-radius: 5px;
 }
@@ -186,7 +186,28 @@ label {
 	padding-left: 10px;
 }
 
+.projectContainer {
+	background-color: aqua;
+	margin-top: 10px;
+}
 
+.projectIntroBox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projectIntroBox .picture {
+}
+
+.projectIntroBox .picture img{
+	margin: 10px;
+	padding: 0px;
+}
+
+.projectIntroText {
+	line-height: 2;
+	padding-left: 5px;
+}
 
 /*Mobile*/
 
